@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    width: 40vw;
+    height: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .card-image-full {
+    width: auto;
+    height: 61vh;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 14px;
+    border: 2px solid #78726d;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-details-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #78726d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-link:hover {
+    background-color: #5c5650;
+  }
+  
+  .back-to-search-link {
+    display: inline-block;
+    margin-top: 17px;
+    padding: 8px 16px;
+    background-color: #b52b31;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-search-link:hover {
+    background-color: #8c2126;
+  }

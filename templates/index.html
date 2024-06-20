@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Codex</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1><strong>MTG Codex - Advanced Card Search</strong></h1>
+        <form id="search-form">
+            <div class="form-group">
+                <label for="query">Card Name:</label>
+                <input type="text" id="query" name="query" placeholder="Enter card name">
+            </div>
+            <div class="form-group">
+                <label for="color">Color (WUBRG):</label>
+                <input type="text" id="color" name="color" placeholder="Enter color code (WUBRG)">
+            </div>
+            <div class="form-group">
+                <label for="type">Type:</label>
+                <input type="text" id="type" name="type" placeholder="Enter card type">
+            </div>
+            <div class="form-group">
+                <label for="effect">Effect:</label>
+                <input type="text" id="effect" name="effect" placeholder="Enter card effect">
+            </div>
+            <div class="form-group">
+                <label for="rarity">Rarity:</label>
+                <input type="text" id="rarity" name="rarity" placeholder="Enter card rarity">
+            </div>
+            <div class="form-group">
+                <label for="cmc">CMC:</label>
+                <input type="number" id="cmc" name="cmc" placeholder="Enter converted mana cost">
+            </div>
+            <div class="form-group">
+                <label for="power">Power:</label>
+                <input type="number" id="power" name="power" placeholder="Enter card power">
+            </div>
+            <div class="form-group">
+                <label for="toughness">Toughness:</label>
+                <input type="number" id="toughness" name="toughness" placeholder="Enter card toughness">
+            </div>
+            <button type="submit">Search</button>
+        </form>
+        <div id="results" style="display: none;"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <script>
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const resultsDiv = document.getElementById('results');
+            setTimeout(() => {
+                resultsDiv.style.display = 'block';
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
