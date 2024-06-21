@@ -14,7 +14,7 @@ O MTG Codex é uma aplicação web que facilita a busca avançada por cartas do 
 * **HTML/CSS/JavaScript**: Frontend para criar uma interface amigável e interativa.
 * **Scryfall API**: API pública usada para obter informações detalhadas sobre as cartas do MTG.
 
-## Como Usar
+## Instalação
 
 1. Clone o repositório:
    
@@ -22,14 +22,34 @@ O MTG Codex é uma aplicação web que facilita a busca avançada por cartas do 
    git clone https://github.com/devitruvius/mtg-codex.git
    cd mtg-codex
    ```
+   
+2. Crie um ambiente virtual:
 
-2. Instale as dependências usando pip (é recomendável usar um ambiente virtual):
+   ```
+   python -m venv venv
+   ```
+
+3. Ative o ambiente virtual:
+
+* No Windows:
+  
+   ```
+   venv\Scripts\activate
+   ```
+   
+* No Unix ou MacOS:
+
+   ```
+   source venv/bin/activate
+   ```
+
+4. Instale as dependências:
 
    ```
    pip install -r requirements.txt
    ```
    
-3. Execute a aplicação:
+5. Execute a aplicação:
 
    ```
    python app.py
@@ -37,10 +57,14 @@ O MTG Codex é uma aplicação web que facilita a busca avançada por cartas do 
 
 4. Abra o navegador e acesse <code>http://localhost:5000</code> para ver a aplicação em funcionamento.
 
-## Contribuições
+## Contribuição
 
 Contribuições são bem-vindas! Se você quiser contribuir para o MTG Codex, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+
+## Agradecimentos
+
+Agradeço a todos os desenvolvedores e colaboradores de bibliotecas e APIs open-source que tornaram possível a criação deste projeto.
