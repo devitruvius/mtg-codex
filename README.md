@@ -1,70 +1,70 @@
 # MTG Codex - Advanced Card Search
 
-O MTG Codex é uma aplicação web que facilita a busca avançada por cartas do jogo Magic: The Gathering (MTG), utilizando a API pública do Scryfall. Os usuários podem refinar suas pesquisas por critérios como nome da carta, cor, tipo, efeitos, raridade, custo de mana convertido (CMC), poder e resistência. Os resultados são apresentados em formato de cartões com informações detalhadas, incluindo nome da carta, tipo, texto oracular e uma imagem representativa.
+MTG Codex is a web application that facilitates advanced searching for Magic: The Gathering (MTG) cards, using the public API from Scryfall. Users can refine their searches based on criteria such as card name, color, type, effects, rarity, converted mana cost (CMC), power, and toughness. Results are displayed in card format with detailed information, including card name, type, oracle text, and a representative image.
 
-## Funcionalidades
+## Features
 
-* **Busca Avançada**: Permite especificar múltiplos critérios para refinar os resultados de cartas.
-* **Visualização Detalhada**: Ao clicar em "View Details", os usuários podem ver uma página detalhada da carta com uma imagem ampliada e informações adicionais.
-* **Navegação Intuitiva**: A partir da página de detalhes da carta, os usuários podem retornar facilmente aos resultados da busca usando o link "Back to Search Results".
+* **Advanced Search**: Allows users to specify multiple criteria to refine card results.
+* **Detailed View**: Clicking on "View Details" enables users to see a detailed card page with an enlarged image and additional information
+* **Intuitive Navigation**: From the card detail page, users can easily return to search results using the "Back to Search Results" link.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-* **Flask**: Framework web em Python utilizado para o backend da aplicação, gerenciando rotas e interações com a API do Scryfall.
-* **HTML/CSS/JavaScript**: Frontend para criar uma interface amigável e interativa.
-* **Scryfall API**: API pública usada para obter informações detalhadas sobre as cartas do MTG.
+* **Flask**: Python web framework used for the backend of the application, handling routes and interactions with the Scryfall API.
+* **HTML/CSS/JavaScript**: Frontend technologies used to create a user-friendly and interactive interface.
+* **Scryfall API**: Public API used to retrieve detailed information about MTG cards.
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
    
    ```
    git clone https://github.com/devitruvius/mtg-codex.git
    cd mtg-codex
    ```
    
-2. Crie um ambiente virtual:
+2. Create a virtual environment:
 
    ```
    python -m venv venv
    ```
 
-3. Ative o ambiente virtual:
+3. Activate the virtual environment:
 
-* No Windows:
+* On Windows:
   
    ```
    venv\Scripts\activate
    ```
    
-* No Unix ou MacOS:
+* On Unix or MacOS:
 
    ```
    source venv/bin/activate
    ```
 
-4. Instale as dependências:
+4. Install dependencies:
 
    ```
    pip install -r requirements.txt
    ```
    
-5. Execute a aplicação:
+5. Run the application:
 
    ```
    python app.py
    ```
 
-4. Abra o navegador e acesse <code>http://localhost:5000</code> para ver a aplicação em funcionamento.
+6. Open a web browser and go to <code>http://localhost:5000</code> to see the application in action.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você quiser contribuir para o MTG Codex, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you'd like to contribute to MTG Codex, feel free to open an issue or submit a pull request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Agradecimentos
+## Acknowledgements
 
-Agradeço a todos os desenvolvedores e colaboradores de bibliotecas e APIs open-source que tornaram possível a criação deste projeto.
+Special thanks to all developers and contributors of open-source libraries and APIs that made this project possible.
